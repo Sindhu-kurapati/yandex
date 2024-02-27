@@ -1,0 +1,114 @@
+/* mobile */
+@media(min-width:300px){
+    html{
+        display: flex;
+        justify-content: center;
+        margin-left: 100%;
+        width:200%;
+    }
+}
+/* tablet */
+@media(min-width:700px){
+    html{
+        width:150%;
+        margin-left: 50%;
+    }
+}
+/* desktop */
+@media(min-width:1300px){
+    html{
+        display: flex;
+        justify-content: center;
+        width:0%;
+        margin-left: 50%;
+    }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital,wght@0,400;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+.icon{
+    height: 3.5rem;
+    padding-right: 5rem ;
+}
+header ul li img:hover{
+    cursor: pointer;
+    height:4rem;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem 10rem 2rem 15rem;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70rem;
+    height: 3rem;
+    border: 2.5px solid #fdcd00;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+}
+input{
+    width: 70rem;
+    border: none;
+    outline: none;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 0;
+    width: 5rem;
+    height: 3rem;
+    background-color: #fdcd00;
+    cursor: pointer;
+}
+.search:hover{
+    box-shadow: 3px 3px #b6b3ae;
+}
+footer section ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18rem;
+}
+.countries img{ 
+    height:10px;
+    margin-left: 3rem;
+    margin-right: 0.5rem;
+}
+footer div ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+footer div ul li{
+    padding: 1rem;
+}
+.features{
+    color:#b6b3ae;
+}
